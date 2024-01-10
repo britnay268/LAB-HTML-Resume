@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(gold, white);
+  height: 1000px;
+  text-align: center;
+}
+hr {
+  margin-top: -15px;
+  margin-bottom: -15px;
+}
+
+#about-britnay {
+  text-align: center;
+}
+
+#about-britnay p {
+  margin-top: -15px;
+}
+
+#about-britnay hr {
+  margin-bottom: 0px;
+}
+
+#education p {
+  margin-bottom: -10px;
+}
