@@ -1,12 +1,14 @@
 body {
   background: linear-gradient(rgb(255, 166, 0), rgb(23, 168, 204));
+  background-repeat: no-repeat;
   height: 100%;
   text-align: center;
   font-family: 'Rubik Maps';
+  padding: 0px 10px;
 }
 
 #about-britnay {
-  border: white dashed 2px;
+  border: white dashed 3px;
   margin-bottom: 10px;
 }
 
@@ -26,7 +28,7 @@ body {
 }
 
 #education {
-  border: black dotted  4px;
+  border: black dotted 3px;
   margin-bottom: 10px;
 }
 
@@ -35,13 +37,32 @@ h6 {
 }
 
 #employee-history {
-  margin: 0px;
-  padding: 0px;
+  /* margin: 0px;
+  padding: 0px; */
   border: olive double 3px;
+  margin-bottom: 10px;
 }
 
-div {
+.format {
   display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
+  justify-content: space-between;
+  /* flex-direction: row; */
+}
+
+#employee-history > p {
+  text-align: left;
+  margin-top: 0px;
+}
+
+.format > p {
+  margin-bottom: 0px;
+}
+
+ul {
+  text-align: left;
+}
+
+#certs {
+  border: plum double 3px;
+  border-radius: 10px;
 }
